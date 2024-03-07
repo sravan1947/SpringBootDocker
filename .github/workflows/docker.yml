@@ -9,4 +9,6 @@ on:
 jobs:
 
   build:
-    uses: ./.github/workflows/maven.yml
+    uses: anujdevopslearn/GithubActionsWorkflows/.github/workflows/maven.yml@main
+    with:
+      build-script: pom.xml
